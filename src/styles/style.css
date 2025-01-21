@@ -1,0 +1,16 @@
+/* Завдання 1 */
+h3:first-child {
+  color: pink;
+}
+p:nth-child(-n + 1) {
+  color: red;
+}
+#greycol {
+  color: grey;
+}
+.yellow {
+  color: yellow;
+}
+p {
+  color: green;
+}
