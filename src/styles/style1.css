@@ -1,0 +1,40 @@
+h2 {
+  color: blue;
+}
+
+ul {
+  list-style-type: none;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}
+.lessons:hover {
+  color: blueviolet;
+}
+h2:hover {
+  cursor: pointer;
+  color: aquamarine;
+}
+.saturday:hover {
+  cursor: pointer;
+  background-color: red;
+}
+.lessons:nth-child(n + 1) {
+  font-size: 24px;
+}
+h2:nth-child(n + 1) {
+  font-size: 35px;
+}
+.saturday:first-child {
+  font-size: 24px;
+}
+.list-item {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}

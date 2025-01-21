@@ -1,4 +1,8 @@
 /* Завдання 1 */
+body > div > p:nth-child(2) {
+  color: black;
+}
+
 h3:first-child {
   color: pink;
 }
