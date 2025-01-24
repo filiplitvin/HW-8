@@ -38,3 +38,24 @@ h2:nth-child(n + 1) {
   border: 1px solid gray;
   border-radius: 10px;
 }
+.list-item:disabled {
+  color: black;
+}
+.list-item:focus {
+  color: aquamarine;
+}
+a:visited {
+  color: blueviolet;
+}
+a:checked {
+  color: blueviolet;
+}
+.lessons:nth-child(-n + 2) {
+  color: aquamarine;
+}
+.lessons:nth-child(n + 4) {
+  color: aqua;
+}
+.lessons:nth-child(3) {
+  color: chartreuse;
+}
